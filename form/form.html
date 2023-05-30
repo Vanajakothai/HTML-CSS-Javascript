@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Dynamic table using html & javascript</title>
+    </head>
+    <body>
+        <h1> Student Details</h1>
+        <form method="post" name="sample">
+            <br>
+            Roll No.<input type="number" name="rollno">
+            Name.<input type="text" name="name">
+            <br><br>
+             <input type="button" name="Add" value="Add Data" onclick="addstudent();">
+            <br><br>
+            <table id="tb1" class="table" border="1">
+                <thead>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                    <th>Update</th>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </form>
+        <script src="form.js"></script>
+    </body>
+</html>
